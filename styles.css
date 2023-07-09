@@ -5,6 +5,16 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: hsl(238, 29%, 16%);
 }
 
-body {}
+body {
+    background-color: aliceblue;
+    width: 1000px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
