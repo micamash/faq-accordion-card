@@ -10,6 +10,7 @@ html {
 
 body {
     font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
     background-color: rgb(251, 247, 255);
     width: 1000px;
     height: 500px;
@@ -23,11 +24,12 @@ body {
 
 main {
     width: 50%;
+    padding: 0 100px 0 0;
 }
 
 .img-container {
     position: relative;
-    width: 40%;
+    width: 55%;
     height: 100%;
     overflow: hidden;
     margin: 0;
@@ -57,44 +59,59 @@ img {
     position: absolute;
 }
 
+h1 {
+    font-weight: 700;
+}
+
 
 .collapsible {
     background-color: rgb(251, 247, 255);
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 18px 0;
     width: 100%;
-    border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid transparent hsl(240, 5%, 91%);
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
 .collapsible:hover {
     color: hsl(14, 88%, 65%);
 }
 
-/* Style the collapsible content. Note: hidden by default */
+.active {
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+    border-bottom: none;
+}
+
 .content {
-    padding: 0 18px;
     background-color: rgb(251, 247, 255);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    border-bottom: 2px solid hsl(240, 5%, 91%);
 }
 
 .collapsible:after {
-    content: '\02795';
-    /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
+    content: url("images/icon-arrow-down.svg");
     color: rgb(251, 247, 255);
     float: right;
     margin-left: 5px;
 }
 
 .active:after {
-    content: "\2796";
-    /* Unicode character for "minus" sign (-) */
+    content: url("images/icon-arrow-down.svg");
+    transform: scaleY(-1);
+}
+
+.attribution {
+    position: absolute;
+    padding: 100px 0 0 200px;
+}
+
+.attribution a {
+    cursor: pointer;
+    color: hsl(273, 75%, 66%);
 }
