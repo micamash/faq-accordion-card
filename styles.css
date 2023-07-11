@@ -106,8 +106,7 @@ h1 {
 }
 
 .attribution {
-    position: absolute;
-    padding: 100px 0 0 200px;
+    margin-top: 30px;
 }
 
 .attribution a {
@@ -117,16 +116,6 @@ h1 {
 
 
 @media (max-width: 1170px) {
-
-    /* html {
-        background: no-repeat linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: hsl(238, 29%, 16%);
-    } */
 
     body {
         width: 325px;
@@ -141,17 +130,22 @@ h1 {
 
     main {
         width: 90%;
-        padding: 40px 0 0 0;
+        padding: 80px 0 0 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
+    h1 {
+        position: fixed;
+        top: 325px;
+    }
+
     .img-container {
         top: -150px;
         width: 100%;
-        height: 100%;
+        height: 53%;
         margin: 0;
         position: absolute;
     }
@@ -177,7 +171,8 @@ h1 {
     }
 
     .attribution {
-        bottom: -25px;
-        padding: 0;
+        font-size: smaller;
+        position: fixed;
+        bottom: 150px;
     }
 }
