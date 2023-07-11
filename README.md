@@ -36,8 +36,8 @@ Small screen:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/micamash/faq-accordion-card)
-- Live Site URL: [Add live site URL here](https://micamash.github.io/faq-accordion-card/)
+- Solution URL: [GitHub](https://github.com/micamash/faq-accordion-card)
+- Live Site URL: [GitHub Pages](https://micamash.github.io/faq-accordion-card/)
 
 ## My process
 
