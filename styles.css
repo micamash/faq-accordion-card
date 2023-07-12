@@ -139,7 +139,7 @@ h1 {
 
     h1 {
         position: fixed;
-        top: 325px;
+        top: 230px;
     }
 
     .img-container {
@@ -173,6 +173,6 @@ h1 {
     .attribution {
         font-size: smaller;
         position: fixed;
-        bottom: 150px;
+        bottom: 75px;
     }
 }
